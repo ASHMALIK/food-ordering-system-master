@@ -1,4 +1,7 @@
 <?php
+$username = 'umer zunair';
+
+
 include 'includes/connect.php';
 	if($_SESSION['admin_sid']==session_id())
 	{
