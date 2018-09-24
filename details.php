@@ -2,6 +2,9 @@
 include 'includes/connect.php';
 $user_id = $_SESSION['user_id'];
 
+
+//this is new ccimment
+
 $result = mysqli_query($con, "SELECT * FROM users where id = $user_id");
 while($row = mysqli_fetch_array($result)){
 $name = $row['name'];	
